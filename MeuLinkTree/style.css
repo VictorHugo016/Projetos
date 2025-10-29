@@ -1,0 +1,67 @@
+body{
+    background-color: #FBFADA;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #436850;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.name {
+    font-family: 'Calibre', sans-serif;
+    color: #12372A;
+    font-size: 32px;
+}
+
+.about {
+    font-family: 'Calibre', sans-serif;
+    color: #436850;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.link-button {
+    font-family: 'Calibre', sans-serif;
+    width: 200px; 
+    background-color: #ADBC9F;
+    color: #12372A;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    background-color: #436850;
+    color: #FBFADA;
+    transform: scale(1.03);
+}
+
+.insta {
+    width: 25px;
+}
+
+.whatsapp {
+    width: 25px;
+}
